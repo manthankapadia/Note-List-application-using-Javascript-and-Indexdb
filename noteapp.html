@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-1.12.1.min.js" > </script>
+  <script type = "text/javascript" src="indexdbscript.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="noteapp.css">
+  <title>Sticky Notes Web-App Project</title>
+</head>
+<body>
+  <div id="header" class="container" class="col-md-8 col-md-offset-2">
+    <div class="jumbotron">
+      <h1 style="text-align:center">ITMD 565 Project</h1>
+      <h2 style="text-align:center">Sticky Notes Web-Application</h2>
+      <h3 style="text-align:center">Manthan Kapadia - mkapadia1@hawk.iit.edu</h3>
+    </div>
+    <div class="NoteData" class="col-md-8 col-md-offset-2">
+      <div id="results">
+        <table id="nodetbl" class="table table-striped">
+          <thead>
+            <tr>
+              <th id="sub">Subject</th>
+              <th id="charnum">Character Count</th>
+              <th id="time">Date and Time</th>
+            </tr>
+          </thead>
+          <tbody id="tnode"></tbody>
+        </table>
+      </div>
+    </div>
+    <div id="count" > </div>
+    <div id="form" class="col-md-8 col-md-offset-2">
+      <div class="jumbotron" >
+      <h4>Name      <input id="textField" class="text-in" type="text" > </h4>
+      <h4>Subject   <input id="subj" class="subj" type="text"> </h4>
+      <h4>Message   <input id="msg" class="msg" type="text" > </h4>
+      <button id="btnAdd" class="btn btn-success"> Add Note </button>
+    </div>
+  </div>
+  <div id = "form1">
+    <div id="detail">
+    </div>
+    <div id="updatedetail">
+    </div>
+  </div>
+</body>
+</html>

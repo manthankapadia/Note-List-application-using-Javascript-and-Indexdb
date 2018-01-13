@@ -1,0 +1,30 @@
+.addNote
+{
+  background-color: #7fa5ff;
+  border-radius: 20px;
+  border: 10px solid #DC143C;
+  color: black;
+}
+.textField
+{
+  width: 300px;
+}
+.sub
+{
+  width: 300px;
+}
+.msg
+{
+  width: 300px;
+}
+.del
+{
+  background-color: #7FFFD4;
+  border-radius: 20px;
+  border: 10px solid #DC143C;
+  color: black;
+}
+
+body{
+  background-color: lightgrey;
+}
